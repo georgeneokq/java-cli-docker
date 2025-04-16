@@ -23,5 +23,5 @@ docker run --rm -it -v "${PWD}/src/:/app/src" -e MAIN_CLASS=com.example.Main jav
 
 Bash:
 ```bash
-docker run --rm -v "$(pwd)/src:/app/src" -e MAIN_CLASS=com.example.Main java-app
+docker run --rm -it -v "$(pwd)/src:/app/src" -e MAIN_CLASS=com.example.Main java-app
 ```
